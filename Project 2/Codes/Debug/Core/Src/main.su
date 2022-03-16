@@ -1,0 +1,9 @@
+core_cm4.h:2059:26:ITM_SendChar	16	static,ignoring_inline_asm
+main.c:82:5:_write	32	static
+main.c:100:5:convert_VREFINT	16	static
+main.c:114:5:convert_TEMPERATURE	24	static
+main.c:128:5:main	32	static
+main.c:261:6:SystemClock_Config	96	static
+main.c:310:13:MX_ADC1_Init	32	static
+main.c:379:13:MX_GPIO_Init	40	static
+main.c:413:6:Error_Handler	4	static,ignoring_inline_asm
