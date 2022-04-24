@@ -277,7 +277,7 @@ void gyroIntegrate(int sample_x, int sample_y, int sample_z)
   *
   * @note r is the gyro resolution in degrees per second (0.07)
   * @note s is the sample rate (100)
-  * @note GYRO_SIGMA_TO_DEGREESx10 = 100 / 0.07 * 100 = 1428.57 * 10 = 14286
+  * @note GYRO_SIGMA_TO_DEGREESx10 = 100 / 0.07 * 10 = 1428.57 * 10 = 14286
   * @note Times by 100 to change to integer instead of float
   *
   * @retval None
